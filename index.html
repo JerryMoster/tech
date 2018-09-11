@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		
+		<style>
+			*{margin: 0;padding: 0;}
+			ul{list-style: none;}
+			a{text-decoration: none;}
+			.clear{clear: both;}
+			body{background: url(images/body-bg.jpg) no-repeat center top;background-size:cover;padding-bottom: 150px;}
+			.wrap{width:980px;margin: 0 auto;}
+			.logo{height: 89px;padding-top: 30px;}
+			.header_bottom{height: 40px;background-color: #888888;border-radius: 7px;box-shadow: 5px 5px 5px rgba(0,0,0,0.2);position: relative;}
+			.nav {float: left;}
+			.search{float: right;padding-top: 7px;padding-right: 10px;}
+			.search input{width:130px;height: 27px;border-radius: 4px;border: none;padding-left: 10px;transition: width 0.5s;}
+			.search input:focus{width:130px;}
+			.nav li{float: left;padding: 0 15px;line-height: 40px;}
+			.nav li a{color: #fff;text-shadow: 2px 2px 0px  rgba(0,0,0,0.2);}
+			.main{padding-top: 30px;}
+			.main article{width:600px;float: left;background-color: #fff;padding:35px;border-radius: 7px;box-shadow: 5px 5px 5px rgba(0,0,0,0.2);}
+			.main article h3,.main article h5{line-height: 30px;}
+			.main article p{line-height: 23px;padding:15px 0;}
+			.main video,.main img{width:100%;}
+			.main aside{width:240px;float: right;}
+			.main aside>div{background-color: #fff;border-radius: 7px;padding: 0 20px;box-shadow: 5px 5px 5px rgba(0,0,0,0.2);}
+			.main aside h4{line-height: 35px;}
+			.main aside li{line-height: 30px;border-bottom: 1px #ededed solid;}
+			.main li a{color:#000;}
+			.main aside .sidebar{margin-bottom: 20px;padding-bottom: 10px;}
+			footer p{color:gray;line-height: 21px;text-align: center;padding-top: 15px;}
+			
+			
+			
+			@media only screen and (max-width:980px ) {
+				.wrap{
+					width:96%;
+					padding:0 2%;
+				}
+				.main article{
+					width:61.2%;
+					padding:3.5%;
+				}
+				.main aside{
+					width:24.4%;
+				}
+			}
+			@media only screen and (max-width:640px) {
+				.main article{
+					width:93%;
+					padding:3.5%;
+					
+				}
+				.main aside{
+					width:100%;
+					margin-top: 20px;
+				}
+				.search input{
+					position: absolute;
+					right:0;
+					top:-40px;
+					width:80px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<header>
+				<div class="logo"><img src="images/logo.png"></div>
+				<div class="header_bottom">
+				    <ul class="nav">
+						<li><a href="#">home</a></li>
+						<li><a href="#">Themify</a></li>
+						<li><a href="#">IconDock</a></li>
+						<li><a href="#">N.Design</a></li>
+				    </ul>
+				    <form class="search">
+				    	<input type="text" value="Search" />
+				    </form>
+				    
+					
+				</div>
+				
+			</header>
+			<div class="main">
+				<article>
+					<hgroup>
+						<h3>Just a Post Title</h3>
+						<h5>May 8, 2011 in Category</h5>
+					</hgroup>
+					
+					<img src="images/sample-image.jpg" />
+					
+					<p>Fusce ut sem est. In eu sagittis felis. In gravida arcu ut neque ornare vitae rutrum turpis vehicula. Nunc ultrices sem mollis metus rutrum non malesuada metus fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque interdum rutrum quam, a pharetra est pulvinar ac. Vestibulum congue nisl magna. Ut vulputate odio id dui convallis in adipiscing libero condimentum. Nunc et pharetra enim. Praesent pharetra, neque et luctus tempor, leo sapien faucibus leo, a dignissim turpis ipsum sed libero. Sed sed luctus purus. Aliquam faucibus turpis at libero consectetur euismod. Nam nunc lectus, congue non egestas quis, condimentum ut arcu. Nulla placerat, tortor non egestas rutrum, mi turpis adipiscing dui, et mollis turpis tortor vel orci. Cras a fringilla nunc. Suspendisse volutpat, eros congue scelerisque iaculis, magna odio sodales dui, vitae vulputate elit metus ac arcu. Mauris consequat rhoncus dolor id sagittis. Cras tortor elit, aliquet quis tincidunt eget, dignissim non tortor.
+</p>
+                    <video src="swf/Compress.MP4"></video>
+                    
+
+				</article>
+				<aside>
+					<div class="sidebar">
+						<h4>sidebar</h4>
+						<ul>
+							<li><a href="#">wordpresss(3)</a></li>
+							<li><a href="#">wordpresss(3)</a></li>
+							<li><a href="#">wordpresss(3)</a></li>
+						</ul>
+					</div>
+					<div class="flickr">
+						<h4>flicker</h4>
+					</div>
+					
+				</aside>
+			    <div class="clear"></div>
+			</div>
+		    <footer>
+		    	<p>火星时代<br>
+
+北京市海淀区杏石口路81号</p>
+		    	
+		    </footer>	
+		</div>
+		
+	</body>
+</html>
